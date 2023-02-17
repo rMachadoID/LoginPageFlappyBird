@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-image: url(https://user-images.githubusercontent.com/18351809/46888871-624a3900-ce7f-11e8-808e-99fd90c8a3f4.png);
+    background-size: 85rem;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.vermelho {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+img {
+    width: 10rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.display-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+.card-dados{
+    margin-top: 10rem;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-body{
+    width: 100%;
+    align-items: center;    
+}
+
+.card-login{
+    border: none;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.card-imagem{
+    border: none;
+    margin-right: auto;
+    margin-left: 0;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+    background-color: rgba(10, 72, 2, 0.722);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.btn :link{
+    color: rgb(0, 0, 0);
+}
+.botao-voltar{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.722);
+}
+.container{
+    padding: 0;
+    width: max-content;
+    box-shadow: 0px 0px 5px #16002d;
+}
+
+.img-background-left{
+    background-color: rgb(255, 255, 255);
+}
+
+.img-background-right{
+    background-image: url(https://i.imgur.com/XCixQ0J.gif)!important;
+    background-position: center;
+    background-size: 20rem;
+
+}
+
+.img-background-cadastro{
+    background-image: url(https://psmag.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg)!important;
+    background-position: center;
+    background-size: 250%;
+
+}
+
+form label{
+    width: 100%;
+    margin-top: auto;
+    padding-bottom: 1rem;
+
+}
+
+form input{
+    width: 100%;
+    margin-top: auto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+form{
+    align-items: center;
+    padding: 2rem;
+}
